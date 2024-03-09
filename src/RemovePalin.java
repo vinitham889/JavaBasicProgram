@@ -31,10 +31,7 @@ public class RemovePalin {
 		}
 		return last;
 	}
-	
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "Text Level and malayalam is";
 		str = str.toLowerCase();
 		System.out.println(removeplaindrome(str));
