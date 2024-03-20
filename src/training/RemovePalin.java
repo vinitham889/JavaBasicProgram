@@ -32,7 +32,9 @@ public class RemovePalin {
 		}
 		String result = String.join(" ", nonPalin);
 		System.out.println("String after removing palindromes: " + result);
-		
+		//output : Enter string
+//		Text level is malayalam
+//		String after removing palindromes: Text is
 
 	}
 

@@ -13,10 +13,10 @@ public class Lowercase {
 		                ch = (char)(s.charAt(i) + 32);
 		                //ch = (char)(s.chartAt(i)-32);//upper case
 		            }
-//		            else {
-//		                ch = (char)(s.charAt(i));
-//		            }
-//		            
+		            else {
+		                ch = (char)(s.charAt(i)-32);
+		            }
+		            
 		            name += ch; 
 		        }
 		        return name;

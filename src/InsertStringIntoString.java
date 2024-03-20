@@ -1,7 +1,8 @@
 
 public class InsertStringIntoString {
 	public static String insert_Str(String org , String inStr,int index) {
-		String newString = new String();
+		
+		String newString = "";
 		for(int i=0;i<org.length();i++) {
 			newString += org.charAt(i);
 			if(i==index)

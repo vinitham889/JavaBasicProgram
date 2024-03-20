@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class PrefixOfString {
-	public String longestCommonPrefix(String [] a)
+	public static String longestCommonPrefix(String [] a)
 	{
 		int size = a.length;
 		 /* if size is 0, return empty string */
@@ -28,6 +28,7 @@ public class PrefixOfString {
 	public static void main(String[] args) {
 		PrefixOfString pf = new PrefixOfString();
 		String input[]= {"geeksforgeeks","geeks","geek","geezer"};
+		System.out.println(longestCommonPrefix(input));
 		
 
 	}

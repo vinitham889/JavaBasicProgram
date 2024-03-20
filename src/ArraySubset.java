@@ -1,8 +1,6 @@
 
 public class ArraySubset {
-	public class SubsetChecker {
-
-	    public static boolean isSubsetSorted(int[] a1, int[] a2) {
+	public static boolean isSubsetSorted(int[] a1, int[] a2) {
 	        int i = 0, j = 0;
 
 	        while (i < a1.length && j < a2.length) {
@@ -32,4 +30,4 @@ public class ArraySubset {
 
 	
 
-}
+

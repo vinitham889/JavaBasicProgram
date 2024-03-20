@@ -2,9 +2,11 @@
 public class EvenLengthWord {
 	//to print Even length words in a String
 	public static void printWord(String s) {
-		for(String word:s.split(" ")) 
-			if(word.length()%2==0)
-				System.out.println(word);
+		String[] word = s.split("\\s");
+		for(String words:word) 
+			if(words.length()%2==0)
+			
+				System.out.print(words+" ");
 			
 		
 			
